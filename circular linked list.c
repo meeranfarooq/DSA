@@ -40,7 +40,6 @@ printf("%d(head)",ptr->data);
 int main(){
     struct node *head=NULL,*temp;
 int n;
-int f;
 printf("enter how many nodes you want ");
 scanf("%d",&n);
     createlink(&head,&temp,n);
